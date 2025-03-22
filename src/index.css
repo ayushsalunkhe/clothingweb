@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  @apply bg-gray-50 text-gray-800;
+}
+
+.glass {
+  @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-lg;
+}
+
+.glass-dark {
+  @apply bg-black/70 backdrop-blur-md border border-white/10 shadow-lg;
+}
+
+.btn-primary {
+  @apply px-6 py-3 rounded-md bg-black text-white font-medium hover:bg-black/80 transition-all;
+}
+
+.section {
+  @apply py-16 px-4 md:px-8 max-w-7xl mx-auto;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold mb-12 text-center;
+}
